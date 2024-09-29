@@ -1,0 +1,37 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.Design.Serialization;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Tyuiu.FedotkinNE.Sprint1.Task1.V0.Lib;
+namespace Tyuiu.FedotkinNE.Sprint1.Task1.V0
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* Спринт #1                                                               *");
+            Console.WriteLine("* Задание 1                                                               *");
+            Console.WriteLine("* Выполнил: Федоткин Никита Евгеньевич | РППб-24-1                        *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* УСЛОВИЕ:                                                                *");
+            Console.WriteLine("* Написать программу, которая вычисляет выражение 3/3*2+12/4/3-2          *");
+            Console.WriteLine("* и печатает результат на экране.                                         *");
+            Console.WriteLine("*                                                                         *");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+            Console.WriteLine("***************************************************************************");
+            int x = 3 / 3 * 2 + 12 / 4 / 3 - 2;
+            Console.WriteLine();
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
+
+            Console.WriteLine(x);
+
+            Console.ReadKey();
+        }
+    }
+}
