@@ -4,8 +4,7 @@ using System.ComponentModel.Design.Serialization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.FedotkinNE.Sprint1.Task1.V0.Lib;
-namespace Tyuiu.FedotkinNE.Sprint1.Task1.V0
+namespace Tyuiu.FedotkinNE.Sprint1.Task1.V2
 {
     internal class Program
     {
