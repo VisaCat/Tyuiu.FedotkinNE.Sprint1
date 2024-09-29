@@ -13,7 +13,7 @@ namespace Tyuiu.FedotkinNE.Sprint1.Task0.V2
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Задание 1                                                               *");
+            Console.WriteLine("* Задание 0                                                               *");
             Console.WriteLine("* Выполнил: Федоткин Никита Евгеньевич | РППб-24-1                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
