@@ -32,6 +32,7 @@ namespace Tyuiu.FedotkinNE.Sprint1.Task0.V2
 
             Console.ReadKey();
 
+
         }
     }
 }
