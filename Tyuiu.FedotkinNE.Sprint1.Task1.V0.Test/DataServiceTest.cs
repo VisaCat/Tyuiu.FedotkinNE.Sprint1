@@ -12,5 +12,6 @@ namespace Tyuiu.FedotkinNE.Sprint0.Task7.V0.Test
             int res = 1;
             Assert.AreEqual(x, res);
         }
+
     }
 }
