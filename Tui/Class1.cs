@@ -1,10 +1,10 @@
-﻿using System;
+﻿sing System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tyuiu.FedotkinNE.Sprint1.Task0.V2.Lib
+namespace Tui
 {
     public class Class1
     {

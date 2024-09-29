@@ -4,9 +4,10 @@ using System.ComponentModel.Design.Serialization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tyuiu.FedotkinNE.Sprint1.Task0.V2.Lib;
 namespace Tyuiu.FedotkinNE.Sprint1.Task0.V2
 {
-    internal class Program
+    internal class class1
     {
         static void Main(string[] args)
         {
@@ -22,13 +23,17 @@ namespace Tyuiu.FedotkinNE.Sprint1.Task0.V2
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            int x = 3 / 3 * 2 + 12 / 4 / 3 - 2;
+            int a = 3;
+            int b = 2;
+            int c = 12;
+            int d = 4;
+            int s = 2;
             Console.WriteLine();
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(x);
+            Console.WriteLine(Lib.DataService.Get(3, 2, 12, 4, 2));
 
             Console.ReadKey();
 
