@@ -5,7 +5,7 @@ namespace Tyuiu.FedotkinNE.Sprint1.Task7.V13.Lib
     {
         public double Calculate(double x, double y)
         {
-            return (Math.Pow(y, 2) - Math.Cos(Math.Pow(x, 2)) + 10) / (Math.Pow(x, 2) - Math.Sin(Math.Pow(y, 2)) + 12);
+            return Math.Round((Math.Pow(y, 2) - Math.Cos(Math.Pow(x, 2)) + 10) / (Math.Pow(x, 2) - Math.Sin(Math.Pow(y, 2)) + 12), 3);
         }
     }
 }
