@@ -5,7 +5,7 @@ namespace Tyuiu.FedotkinNE.Sprint1.Task4.V16.Lib
     {
         public double Calculate(double x)
         {
-            return (1) / (x + 4);
+            return Math.Round((1) / (x + 4), 3);
         }
     }
 }
